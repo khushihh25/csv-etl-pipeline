@@ -1,0 +1,10 @@
+2026-11-22 17:59:43,143 | INFO | Extracted 10 rows from messy_sales.csv
+2026-11-22 17:59:43,157 | INFO | Removed 1 duplicate rows
+2026-11-22 17:59:43,157 | INFO | Missing amounts: 2 | Missing quantities: 1
+2026-11-22 17:59:43,158 | INFO | Data quality checks passed
+2026-11-22 17:59:43,181 | INFO | Loaded 9 rows into table 'sales'
+2026-11-22 17:59:49,504 | INFO | Extracted 10 rows from messy_sales.csv
+2026-11-22 17:59:49,517 | INFO | Removed 1 duplicate rows
+2026-11-22 17:59:49,518 | INFO | Missing amounts: 2 | Missing quantities: 1
+2026-11-22 17:59:49,519 | INFO | Data quality checks passed
+2026-11-22 17:59:49,537 | INFO | Loaded 9 rows into table 'sales'

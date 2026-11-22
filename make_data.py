@@ -1,0 +1,18 @@
+rows = [
+    "order_id,customer_name,city,order_date,amount,quantity,status",
+    '1001,  Rahul Sharma ,delhi,2026-01-05,"1,200",2,Delivered',
+    "1002,priya verma,Mumbai ,05/01/2026,950,1,delivered",
+    "1003,AMIT KUMAR,BENGALURU,2026-01-07,Rs 2500,3,Delivered",
+    "1004,Sneha Iyer,Chennai,07-01-2026,,1,Cancelled",
+    '1005,rahul sharma,Delhi,2026-01-09,"1,200",2,DELIVERED',
+    '1005,rahul sharma,Delhi,2026-01-09,"1,200",2,DELIVERED',
+    "1006,Karan Singh,kolkata,2026-01-10,780,-1,Delivered",
+    "1007,,Mumbai,2026-01-11,N/A,2,Pending",
+    "1008,Neha Gupta,Delhi,2026-01-12,1850,1,pending",
+    "1009,Vikram Rao,Bengaluru ,12/01/2026,3200,4,Delivered",
+]
+
+with open("messy_sales.csv", "w", encoding="utf-8") as f:
+    f.write("\n".join(rows))
+
+print("messy_sales.csv created")
